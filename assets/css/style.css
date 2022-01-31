@@ -1,0 +1,200 @@
+:root {
+    --primary-color: #333333;
+    --secondary-color: #606060;
+    --tertiary-color: #48d1cc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: none;
+}
+  
+a:active {
+    text-decoration: none;
+    color: none;
+}
+
+body {
+    font-family: ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #48d1cc;
+    background-color: #606060;
+}
+
+section {
+    padding: 60px;
+  }
+
+.flex-row {
+    display: flex;
+}
+/* banner top/bottom styles start */
+
+.banner {
+    padding: 1.5vw 2.9vw;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner h1 {
+    font-weight: bold;
+    font-size: 3vw;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.banner nav {
+    margin: 7px 0;
+}
+
+.banner nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.banner nav ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner nav ul li a:hover {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+    text-shadow: none;
+    border-radius: 15px;
+}
+
+/* end banner top/bottom styles */
+
+/* hero styles start */
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 300px;
+}
+
+.tagline {
+    font-weight: bold;
+    font-family:'franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px #ffff;
+    position: static;
+    flex-wrap: none;
+    text-align: center;
+}
+
+/* end hero styles */
+
+/* About Me styles start */
+
+.about-me {
+    background-color: #333333;
+    border-radius: 15px;
+    margin-left: 62px;
+    margin-right: 62px;
+    padding: 15px;
+}
+.about-me img{
+	border-radius: 15px;
+	margin-left: 62px;
+	padding: 15px;
+	margin-right: 
+}
+.about-me h2 {
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+    font-size: 5vw;
+    flex-wrap: none;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+}
+
+.about-me p {
+    padding: 25px;
+    line-height: 1.5;
+    font-size: 1.5vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* end About Me styles*/
+
+/* My Work styles start */
+
+.my-work{
+    font-weight: bold;
+    font-family: fantsy;
+    font-size: 5vw;
+    text-align: center;
+    background-color:#333333;
+    border-radius: 15px 15px 0 0;
+    padding-top: 15px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
+}
+
+.
+
+.showcase-secondary h3 a:hover {
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.projects img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+
+
