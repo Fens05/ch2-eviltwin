@@ -24,27 +24,30 @@ a:hover {
     text-decoration: none;
     color: none;
 }
-  
+
 a:active {
     text-decoration: none;
     color: none;
 }
 
 body {
-    font-family: ;
+    font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
     background-attachment: fixed;
     color: #48d1cc;
     background-color: #606060;
+    background-image: url(../images/hero.jpg);
 }
 
 section {
     padding: 60px;
-  }
+}
 
 .flex-row {
     display: flex;
 }
+
+
 /* banner top/bottom styles start */
 
 .banner {
@@ -94,9 +97,12 @@ section {
     border-radius: 15px;
 }
 
+
 /* end banner top/bottom styles */
 
+
 /* hero styles start */
+
 .hero {
     display: flex;
     justify-content: center;
@@ -107,7 +113,7 @@ section {
 
 .tagline {
     font-weight: bold;
-    font-family:'franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     color: var(--tertiary-color);
     text-shadow: 0 0 10px #ffff;
@@ -116,7 +122,9 @@ section {
     text-align: center;
 }
 
+
 /* end hero styles */
+
 
 /* About Me styles start */
 
@@ -127,21 +135,26 @@ section {
     margin-right: 62px;
     padding: 15px;
 }
-.about-me img{
-	border-radius: 15px;
-	margin-left: 62px;
-	padding: 15px;
-	margin-right: 
+
+.about-me img {
+    border-radius: 15px;
+    margin-left: 62px;
+    padding: 15px;
+    margin-right: 62px;
 }
+
 .about-me h2 {
     font-weight: bold;
-    font-family:'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium';
     font-size: 5vw;
     flex-wrap: none;
     padding-bottom: 30px;
     text-align: center;
 }
 
+.me-img {
+    width: 200px;
+    height: 200px;
 }
 
 .about-me p {
@@ -156,23 +169,25 @@ section {
     font-weight: bold;
 }
 
+
 /* end About Me styles*/
+
 
 /* My Work styles start */
 
-.my-work{
+.my-work {
     font-weight: bold;
     font-family: fantsy;
     font-size: 5vw;
     text-align: center;
-    background-color:#333333;
+    background-color: #333333;
     border-radius: 15px 15px 0 0;
     padding-top: 15px;
 }
 
 .projects {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
     justify-content: space-around;
@@ -180,8 +195,6 @@ section {
     border-radius: 0 0 15px 15px;
     padding: 15px;
 }
-
-.
 
 .showcase-secondary h3 a:hover {
     color: var(--secondary-color);
@@ -195,6 +208,3 @@ section {
     border-radius: 8px;
     height: auto;
 }
-
-
-
